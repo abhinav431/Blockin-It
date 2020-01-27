@@ -87,14 +87,6 @@ public class simple : MonoBehaviour {
 				redline [i, j] = Instantiate (red_cube, new Vector3 (i, 8f-0.45f, j), Quaternion.identity) as GameObject;
 				redline [i, j].SetActive (false);
 			}
-
-		///********************************************what was this for***************************************************888
-		/*
-		for (i = 0; i <10; i++){
-				redline [i, j] = Instantiate (red_cube, new Vector3 (i, 8, j), Quaternion.identity) as GameObject;
-				redline [i, j].SetActive (false);
-			}*/
-
 		}
 
 	public void go_down()
@@ -169,14 +161,7 @@ public class simple : MonoBehaviour {
 
 		//************************************************************controls***************************************************************
 
-
-
 		//*********************************************************end move in horizontal plane****************************************************
-
-		//if (Input.touchcount > 0) {
-
-
-		//}
 
 		//*************************************************************one down**************************************************************
 
